@@ -57,12 +57,18 @@
         </div>
     </div>
     <!-- Topbar End -->
-
+    <style>
+        .navbar-brand img {
+          width: 100px; /* Set the desired width */
+          height: auto; /* Maintain the aspect ratio */
+      }
+  </style>
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Farm</span>Fresh</h1>
+        <a href="index.html" class="navbar-brand">
+            <!-- Your logo image goes here -->
+            <img src="img/agrim.png" alt="FarmFresh Logo" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -73,16 +79,7 @@
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
                 <a href="product.html" class="nav-item nav-link">Product</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item active">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
+                <a href="blog.html" class="nav-item nav-link active">blog</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -114,7 +111,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -123,7 +120,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -132,7 +129,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -141,7 +138,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -150,7 +147,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -159,7 +156,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -168,7 +165,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -177,7 +174,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -186,7 +183,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>
@@ -195,7 +192,7 @@
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
+                            <a class="blog-overlay" href="detail.html">
                                 <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                                 <span class="text-white fw-bold">Jan 01, 2050</span>
                             </a>

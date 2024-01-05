@@ -121,7 +121,7 @@
 }
 .carousel-control-next {
   right: 0;
-  background-image: if($enable-gradients, linear-gradient(270deg, rgba($black, .25), rgba($black, .001)), null);
+  background-image: if($enable-gradients, linear-gradient(270deg, rgba($black, .25]), rgba($black, .001)), null);
 }
 
 // Icons for within

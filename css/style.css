@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
-    --secondary: #FF9933;
+    --primary: #1C5739;
+    --secondary: #D9D549;
     --light: #F6FFF2;
-    --dark: #263A4F;
+    --dark: #733012;
 }
 
 .btn {
@@ -111,12 +111,12 @@
 }
 
 .bg-vegetable {
-    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), url(../img/vegetable.png) bottom right no-repeat;
+    background: linear-gradient(rgba(28, 87, 57, .2), rgba(28, 87, 57, .2)), url(../img/vegetable.png) bottom right no-repeat;
     background-size: contain;
 }
 
 .bg-fruit {
-    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(../img/fruit.png) bottom right no-repeat;
+    background: linear-gradient(rgba(217, 213, 73, .2), rgba(217, 213, 73, .2)), url(../img/fruit.png) bottom right no-repeat;
     background-size: contain;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .testimonial-carousel {
-    background: rgba(52, 173, 84, .7);
+    background: rgba(28, 87, 57, .7);
 }
 
 .testimonial-carousel .owl-nav {
@@ -278,12 +278,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+    background: linear-gradient(rgba(28, 87, 57, 0), rgba(28, 87, 57,1));
     z-index: 1;
 }
 
 .bg-footer {
-    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(../img/footer.png) center bottom no-repeat;
+    background: linear-gradient(rgba(28, 87, 57, .7), rgba(28, 87, 57, .7)), url(../img/footer.png) center bottom no-repeat;
     background-size: contain;
 }
 
